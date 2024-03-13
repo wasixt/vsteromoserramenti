@@ -146,7 +146,7 @@ body {
     color: rgb(0, 0, 0);   
 }
 .prodotto:hover{
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
     transition: 0.3s;
     opacity: 0.9;
     
