@@ -1,6 +1,6 @@
 body {
     font-family: Roboto, Sans-Serif;
-    padding-bottom: 2000px;   
+    padding-bottom: 2px;   
 }
 
 .tit {
@@ -170,7 +170,30 @@ body {
   }
   .nume-produs-style:hover {
     transition: 0.2s;
-    color: rgba(255, 0, 0, 0.89);
+    color: rgb(4, 190, 190);
   }
   
+  .card {
+    margin-top: 40px;
+  }
+  .col-btn-footer {
+    display: grid;
+    font-size: 20px;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    column-gap: 10px;
+    
+  }
+  .btn {
+    display: grid;
+    justify-content: space-between;
+    border: solid;
+    border-color: rgb(228, 223, 223);
+    border-width: 1px;
+    margin-top: 1px;
+  }
+  .btn:hover {
+    color: rgb(4, 190, 190);
+    background-color: aliceblue;
+  }
   
