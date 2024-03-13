@@ -55,6 +55,20 @@ body {
     color: green;
     font-size: 50px;
 }
+.carousel-item {
+    position: relative;
+    text-align: center;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text-slide {
+    font-size: 30px;
+  }
+  
 .eco {
     margin-top: 30px;
      display: grid;
@@ -142,7 +156,7 @@ body {
     cursor: pointer;
     position: relative;
     text-align: center;
-    color: rgb(226, 47, 47);
+    color: rgb(0, 0, 0);
     
 }
 .prodotto:hover{
@@ -161,19 +175,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .nume-produs:hover {
+    color: rgba(226, 31, 31, 0.89);
+    transition: 0.3s;
+    
+  }
   .nume-produs-style {
     font-size: 35px;
   }
-  .carousel-item {
-    position: relative;
-    text-align: center;
-  }
-  .carousel-caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .text-slide {
-    font-size: 30px;
-  }
+  
