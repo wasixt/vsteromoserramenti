@@ -147,9 +147,9 @@ body {
 }
 .prodotto:hover{
     box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
-    transition: 0.4s;
+    transition: 0.3s;
     opacity: 0.9;
-    color: rgba(255, 0, 0, 0.89);
+    
 }
 .img-prodotto {
     width: 100%;
@@ -161,10 +161,16 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: black;
   }
   
   .nume-produs-style {
     font-size: 35px;
+    
+  }
+  .nume-produs-style:hover {
+    transition: 0.2s;
+    color: rgba(255, 0, 0, 0.89);
   }
   
   
