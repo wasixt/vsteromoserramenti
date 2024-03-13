@@ -139,20 +139,21 @@ body {
     row-gap: 40px;  
 }
 .prodotto {
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
     cursor: pointer;
     position: relative;
     text-align: center;
     color: rgb(0, 0, 0);   
 }
 .prodotto:hover{
-    box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
     transition: 0.4s;
-    opacity: 0.8;
+    opacity: 0.9;
     color: rgba(255, 0, 0, 0.89);
 }
 .img-prodotto {
     width: 100%;
+    object-fit: cover;
 }
 
 .nume-produs {
