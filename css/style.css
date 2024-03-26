@@ -182,7 +182,7 @@ body {
     display: grid;
     font-size: 20px;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(2   40px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     column-gap: 10px;
     
   }
@@ -199,3 +199,16 @@ body {
     background-color: aliceblue;
   }
   
+  .nume-pagina {
+    text-align: center;
+    font-size: 60px;
+    margin: 50px;
+    background-color: rgb(217, 232, 239);
+    padding: 40px;
+  }
+  .img-produs {
+    display: block;
+  }
+  .container {
+    font-size: 22px;
+  }
