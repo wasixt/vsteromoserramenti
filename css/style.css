@@ -72,6 +72,7 @@ body {
     display: grid;
     column-gap: 40px;
     vertical-align: center;
+    padding: 15px;
 }
 .pub1-1 {
     color: rgba(252, 8, 8, 0.849);
@@ -214,7 +215,7 @@ body {
   }
  
   .galerie {
-    background-color: rgb(205, 202, 202);
+    background-color: rgb(237, 249, 251);
     padding: 15px;
     display: flex;
     justify-content: space-evenly;
