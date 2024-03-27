@@ -85,6 +85,10 @@ body {
     font-size: xx-large;
     max-height: fit-content;
 }
+.span-2 {
+  color: rgb(80, 80, 249);
+  font-size: 40px;
+}
 .pub-2 {
     margin-top: 30px;
     margin-left: 30px;
@@ -150,7 +154,7 @@ body {
 .prodotto:hover{
     box-shadow: 10px 10px 30px rgba(0,0,0,0.6);
     transition: 0.3s;
-    opacity: 0.9;
+    opacity: 0.7;
     
 }
 .img-prodotto {
@@ -235,4 +239,14 @@ body {
     column-gap: 20px;
     padding-left: 25px;
     
+  }
+  h5 {
+    font-size: 40px;
+  }
+  .paneli-porte {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
   }
