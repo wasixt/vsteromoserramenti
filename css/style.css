@@ -291,3 +291,13 @@ body {
 .tessuti {
   text-align: center;
 }
+.porte-alu {
+  background-color: aquamarine;
+  padding: 20px;
+  margin-top: 30px;
+}
+.porte-pvc {
+  background-color: beige;
+  padding: 20px;
+  margin-top: 30px;
+}
