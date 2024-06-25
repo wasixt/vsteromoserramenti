@@ -297,7 +297,11 @@ body {
   margin-top: 30px;
 }
 .porte-pvc {
-  background-color: beige;
+  background-color: rgb(245, 245, 192);
+  padding: 20px;
+  margin-top: 30px;
+}.porte-alu-pvc {
+  background-color: rgb(245, 107, 107);
   padding: 20px;
   margin-top: 30px;
 }
