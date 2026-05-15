@@ -185,6 +185,8 @@ body {
   
   .card {
     margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .col-btn-footer {
     display: grid;
@@ -192,6 +194,8 @@ body {
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     column-gap: 10px;
+   
+
     
   }
   .btn {
@@ -311,6 +315,7 @@ body {
 .prezzi {
 font-size: 30px;
 margin-left: 20px;
+margin-right: 20px;
 }
 .preturi {
   text-align: center;
