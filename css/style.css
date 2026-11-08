@@ -241,7 +241,7 @@ body {
   }
   .img-mostre {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     row-gap: 20px;
     column-gap: 20px;
     padding: 20px;
